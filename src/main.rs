@@ -4,6 +4,7 @@ use reqwest::{header::USER_AGENT, Error};
 use serde::{Serialize, Deserialize};
 use tl::Node::Tag;
 use tokio::{fs::File, io::{AsyncWriteExt, AsyncReadExt}};
+use urlencoding::encode;
 
 const WIKI_URL: &'static str = "https://oldschool.runescape.wiki/";
 const WIKI_IMAGES_URL: &'static str = "https://oldschool.runescape.wiki/images/";
@@ -32,7 +33,9 @@ struct DataList {
 }
 
 fn make_name_urlsafe(name: &str) -> String {
-    return name.replace(" ", "_");
+    let url_param = name.replace(" ", "_");
+
+    return String::from(encode(&url_param));
 }
 
 async fn request_chathead(entry: &DataEntry) -> Result<Option<String>, Error> {
@@ -55,9 +58,11 @@ async fn request_chathead(entry: &DataEntry) -> Result<Option<String>, Error> {
 async fn request_infobox_image_source_from_wiki(entry: &DataEntry) -> Result<Option<String>, Error> {
     fn transform_wiki_link_to_img_source(wiki_link: &str) -> String {
         /* Transforms /w/File:Zulrah_(serpentine).png to images/Zulrah_(serpentine).png */
-        let base_url = WIKI_URL;
-        let url_param = wiki_link.replace("/w/File:", "images/");
-        
+        let base_url = WIKI_IMAGES_URL;
+
+        let url_param = wiki_link.replace("/w/File:", "");
+        let url_param = encode(&url_param);
+    
         format!("{}{}", base_url, url_param)
     }
 

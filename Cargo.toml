@@ -11,3 +11,4 @@ reqwest = "0.11.23"
 serde = { version = "1.0.195", features = ["derive"] }
 serde_json = "1.0.111"
 tl = "0.7.7"
+urlencoding = "2.1.3"
