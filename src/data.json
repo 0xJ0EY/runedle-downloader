@@ -1,0 +1,364 @@
+{
+  "npcs": [
+    {
+      "name": "Abbot Langley",
+      "gender": "Male",
+      "race": "Human",
+      "region": "Asgarnia",
+      "combatLevel": 0,
+      "releaseDate": 2001
+    },
+    {
+      "name": "Ahrim the Blighted",
+      "gender": "Male",
+      "race": "Human, Spectral",
+      "region": "Morytania",
+      "combatLevel": 98,
+      "releaseDate": 2005
+    },
+    {
+      "name": "Apmeken",
+      "gender": "Female",
+      "race": "Baboon",
+      "region": "Desert",
+      "combatLevel": 0,
+      "releaseDate": 2022
+    },
+    {
+      "name": "Ava",
+      "gender": "Female",
+      "race": "Human",
+      "region": "Mistalin",
+      "combatLevel": 0,
+      "releaseDate": 2006
+    },
+    {
+      "name": "Awowogei",
+      "gender": "Male",
+      "race": "Monkey",
+      "region": "Karamja",
+      "combatLevel": 0,
+      "releaseDate": 2004
+    },
+    {
+      "name": "Azzanadra",
+      "gender": "Male",
+      "race": "Mahjarrat",
+      "region": "Desert",
+      "combatLevel": 0,
+      "releaseDate": 2005
+    },
+    {
+      "name": "Ba-Ba",
+      "gender": "Female",
+      "race": "Monkey",
+      "region": "Desert",
+      "combatLevel": 359,
+      "releaseDate": 2022
+    },
+    {
+      "name": "Baba Yaga",
+      "gender": "Female",
+      "race": "Human",
+      "region": "Fremennik Province",
+      "combatLevel": 0,
+      "releaseDate": 2006
+    },
+    {
+      "name": "Bert",
+      "gender": "Male",
+      "race": "Human",
+      "region": "Kandarin",
+      "combatLevel": 0,
+      "releaseDate": 2006
+    },
+    {
+      "name": "BigRedJapan",
+      "gender": "Male",
+      "race": "Human",
+      "region": "Gielinor",
+      "combatLevel": 0,
+      "releaseDate": 2013
+    },
+    {
+      "name": "Bloat",
+      "gender": "Other",
+      "race": "Undead",
+      "region": "Morytania",
+      "combatLevel": 870,
+      "releaseDate": 2018
+    },
+    {
+      "name": "Cabin boy Jenkins",
+      "gender": "Male",
+      "race": "Human",
+      "region": "Mistalin",
+      "combatLevel": 0,
+      "releaseDate": 2004
+    },
+    {
+      "name": "Calisto",
+      "gender": "Male",
+      "race": "Bear",
+      "region": "Wilderness",
+      "combatLevel": 470,
+      "releaseDate": 2014
+    },
+    {
+      "name": "Cerberus",
+      "gender": "Female",
+      "race": "Hellhound",
+      "region": "Asgarnia",
+      "combatLevel": 318,
+      "releaseDate": 2015
+    },
+    {
+      "name": "Chaeldar",
+      "gender": "Female",
+      "race": "Fairy",
+      "region": "Mistalin",
+      "combatLevel": 0,
+      "releaseDate": 2005
+    },
+    {
+      "name": "Chaos Elemental",
+      "gender": "N/A",
+      "race": "Elemental",
+      "region": "Wilderness",
+      "combatLevel": 305,
+      "releaseDate": 2006
+    },
+    {
+      "name": "Charlie the Tramp",
+      "gender": "Male",
+      "race": "Human",
+      "region": "Mistalin",
+      "combatLevel": 0,
+      "releaseDate": 2001
+    },
+    {
+      "name": "Commander Zilyana",
+      "gender": "Female",
+      "race": "Icyene",
+      "region": "Asgarnia",
+      "combatLevel": 596,
+      "releaseDate": 2013
+    },
+    {
+      "name": "Corporeal Beast",
+      "gender": "N/A",
+      "race": "Spectral",
+      "region": "Wilderness",
+      "combatLevel": 785,
+      "releaseDate": 2014
+    },
+    {
+      "name": "Crazy Archaeologist",
+      "gender": "Male",
+      "race": "Human",
+      "region": "Wilderness",
+      "combatLevel": 204,
+      "releaseDate": 2014
+    },
+    {
+      "name": "Dark Wizard",
+      "gender": "Male",
+      "race": "Human",
+      "region": "Mistalin",
+      "combatLevel": 7,
+      "releaseDate": 2001
+    },
+    {
+      "name": "Doric",
+      "gender": "Male",
+      "race": "Dwarf",
+      "region": "Asgarnia",
+      "combatLevel": 0,
+      "releaseDate": 2001
+    },
+    {
+      "name": "Dr Jekyll",
+      "gender": "Male",
+      "race": "Human",
+      "region": "Gielinor",
+      "combatLevel": 0,
+      "releaseDate": 2005
+    },
+    {
+      "name": "Drezel",
+      "gender": "Male",
+      "race": "Human",
+      "region": "Morytania",
+      "combatLevel": 0,
+      "releaseDate": 2004
+    },
+    {
+      "name": "Duradel",
+      "gender": "Male",
+      "race": "Human",
+      "region": "Karamja",
+      "combatLevel": 0,
+      "releaseDate": 2005
+    },
+    {
+      "name": "Eadgar",
+      "gender": "Male",
+      "race": "Human",
+      "region": "Asgarnia",
+      "combatLevel": 0,
+      "releaseDate": 2005
+    },
+    {
+      "name": "Evil Bob",
+      "gender": "Male",
+      "race": "Cat",
+      "region": "ScapeRune",
+      "combatLevel": 0,
+      "releaseDate": 2005
+    },
+    {
+      "name": "General Graardor",
+      "gender": "Male",
+      "race": "Ougre",
+      "region": "Asgarnia",
+      "combatLevel": 624,
+      "releaseDate": 2013
+    },
+    {
+      "name": "Ghommal",
+      "gender": "Male",
+      "race": "Human",
+      "region": "Asgarnia",
+      "combatLevel": 0,
+      "releaseDate": 2006
+    },
+    {
+      "name": "Great Olm",
+      "gender": "Male",
+      "race": "Dragon, Xercian",
+      "region": "Great Kourend",
+      "combatLevel": 1043,
+      "releaseDate": 2017
+    },
+    {
+      "name": "Hans",
+      "gender": "Male",
+      "race": "Human",
+      "region": "Misthalin",
+      "combatLevel": 0,
+      "releaseDate": 2001
+    },
+    {
+      "name": "Kalphite Queen",
+      "gender": "Female",
+      "race": "Kalphite",
+      "region": "Desert",
+      "combatLevel": 333,
+      "releaseDate": 2004
+    },
+    {
+      "name": "Konar",
+      "gender": "Female",
+      "race": "Kahlith",
+      "region": "Mount Karuulm",
+      "combatLevel": 0,
+      "releaseDate": 2019
+    },
+    {
+      "name": "Kree'arra",
+      "gender": "Male",
+      "race": "Aviantese",
+      "region": "Asgarnia",
+      "combatLevel": 580,
+      "releaseDate": 2013
+    },
+    {
+      "name": "K'ril Tsutsaroth",
+      "gender": "Male",
+      "race": "Demon",
+      "region": "Asgarnia",
+      "combatLevel": 650,
+      "releaseDate": 2013
+    },
+    {
+      "name": "Necrovarus",
+      "gender": "Male",
+      "race": "Ghost",
+      "region": "Morytania",
+      "combatLevel": 0,
+      "releaseDate": 2005
+    },
+    {
+      "name": "The Nightmare",
+      "gender": "Female",
+      "race": "Horror",
+      "region": "Morytania",
+      "combatLevel": 814,
+      "releaseDate": 2020
+    },
+    {
+      "name": "Obor",
+      "gender": "Male",
+      "race": "Hill Giant",
+      "region": "Mistalin",
+      "combatLevel": 106,
+      "releaseDate": 2016
+    },
+    {
+      "name": "Trobin Arceuus",
+      "gender": "Male",
+      "race": "Citizen of Arceuus",
+      "region": "Kourend",
+      "combatLevel": 0,
+      "releaseDate": 2019
+    },
+    {
+      "name": "TzTok-Jad",
+      "gender": "Male",
+      "race": "TzHaar",
+      "region": "Karamja",
+      "combatLevel": 702,
+      "releaseDate": 2005
+    },
+    {
+      "name": "TzKal-Zuk",
+      "gender": "Male",
+      "race": "TzHaar",
+      "region": "Karamja",
+      "combatLevel": 1400,
+      "releaseDate": 2017
+    },
+    {
+      "name": "Vorkath",
+      "gender": "Male",
+      "race": "Dragon, Undead",
+      "region": "Fremenik Province",
+      "combatLevel": 732,
+      "releaseDate": 2018
+    },
+    {
+      "name": "Wise Old Man",
+      "gender": "Male",
+      "race": "Human",
+      "region": "Misthalin",
+      "combatLevel": 144,
+      "releaseDate": 2005
+    },
+    {
+      "name": "Zalcano",
+      "gender": "Female",
+      "race": "Demon",
+      "region": "Tirannwn",
+      "combatLevel": 336,
+      "releaseDate": 2019
+    },
+    {
+      "name": "Zulrah",
+      "gender": "Female",
+      "race": "Snake",
+      "region": "Tirannwn",
+      "combatLevel": 725,
+      "releaseDate": 2015
+    }
+  ]
+}
