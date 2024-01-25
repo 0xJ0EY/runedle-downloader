@@ -1,5 +1,5 @@
 use std::env;
-
+use futures::future::join_all;
 use reqwest::{header::USER_AGENT, Error};
 use serde::{Serialize, Deserialize};
 use tl::Node::Tag;
@@ -124,11 +124,13 @@ async fn main() -> std::io::Result<()> {
     input.read_to_string(&mut contents).await?;
 
     let mut datalist = serde_json::from_str::<DataList>(&contents).unwrap();
-    
+    let mut tasks = Vec::new();
+
     for entry in &mut datalist.npcs {
-        println!("Processing: {}", &entry.name);
-        set_image_source(entry).await;
+        tasks.push(set_image_source(entry));
     }
+
+    join_all(tasks).await;
 
     let mut output = File::create(output_location).await?;
     output.write_all(serde_json::to_string_pretty(&datalist)?.as_bytes()).await?;
