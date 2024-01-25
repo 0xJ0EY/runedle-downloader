@@ -98,6 +98,8 @@ async fn request_infobox_image_source_from_wiki(entry: &DataEntry) -> Result<Opt
 }
 
 async fn set_image_source(entry: &mut DataEntry) {
+    println!("Processing: {}", &entry.name);
+
     if let Ok(Some(image)) = request_chathead(&entry).await {
         entry.image = image;
         return;
